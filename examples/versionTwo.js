@@ -50,5 +50,6 @@ server.get("/name/:id", (req, res) => {
 });
 
 server.runServerOn(8000, () => {
-  console.log("server running on port ", 8000);
+  // console.log("server running on port ", 8000);
+  console.log("server is running");
 });
